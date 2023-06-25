@@ -2846,6 +2846,28 @@
             "supported video codecs": [
                 "h264"
             ]
+        },
+         {
+            "name": "Kick.com",
+            "more_info_link": "https://help.kick.com/en/articles/7066931-how-to-stream-on-kick-com",
+            "stream_key_link": "https://kick.com/dashboard/settings/stream",
+            "servers": [
+                {
+                    "name": "RTMP",
+                    "url": "rtmps://fa723fc1b171.global-contribute.live-video.net"
+                }
+            ],
+            "recommended": {
+                "keyint": 2,
+                "max video bitrate": 7500,
+                "max audio bitrate": 192,
+                "profile": "main",
+                "bframes": 0,
+                "x264opts": "tune=zerolatency"
+            },
+            "supported video codecs": [
+                "h264"
+            ]
         }
     ]
 }
